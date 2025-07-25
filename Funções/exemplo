@@ -1,0 +1,14 @@
+def teste_frase():
+    print("Estou na função")
+
+for i in range(3): #roda a frase "ESTOU NA FUNÇÃO" 3 vezes
+    teste_frase()
+
+#====================================================
+def operacao():
+    contador = 60
+    contador += 2
+    print(f"Contador = {contador}")
+    return contador #ele volta o que está dentro do contador
+
+operacao()
