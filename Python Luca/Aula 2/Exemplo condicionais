@@ -1,0 +1,62 @@
+print("Anotações!!!")
+numero = 10
+if numero > 0:
+    print("O número é positivo")
+
+
+senha = 145
+
+if senha == 145: #comparação
+    print("Senha correta")
+
+else:
+    print("Senha incorreta")
+#------------------------------------------------------
+frase = "Olá, mundo!"
+print(frase[-2])
+
+frase = "Olá, mundoo!"
+print(frase[0:3])
+
+frase = "Olá, mundoo!"
+print(frase[0::3])
+
+frase = "python"
+
+print(frase.upper()) # maiusculo
+
+print(frase.lower()) #minusculo
+
+print(frase.title()) #primeira letra maiúscula
+#-----------------------------------------------------
+nome = input("Digite o nome do personagem: \n")
+
+cor_de_cabelo = input("Digite a cor do cabelo do seu personagem: \n")
+
+cor_de_pele = input("Digite a cor da pele do seu personagem: \n")
+
+classe = input("Selecione a classe do seu personagem: Guerreiro, Mago ou Arqueiro: \n")
+
+idade = int(input("Digite a idade do seu personagem: \n"))
+
+altura = float(input("Digite a altura do seu personagem: \n"))
+
+habilidade = input("Digite a habilidade do seu personagem: \n")
+
+print(f"O nome do seu personagem é {nome}, ele(a) possui cabelos {cor_de_cabelo} claros e pele {cor_de_pele}. Pertence a classe {classe}, tem {idade} anos, tem {altura} de altura e possui {habilidade} como habilidade")
+
+#----------------------------------------------------------------
+nome = "Mark"
+print(nome)
+
+frase = "Eu sou o seu pai"
+print(frase[::-1])
+
+filme = "Avatar"
+print(f"A maior bilheteria de 2009 foi {filme}")
+
+numero1 = 10
+dado = int(input("Digite o número que deseja: \n"))
+print(numero1 * dado)
+
+#--------------------------------------------------------------------
