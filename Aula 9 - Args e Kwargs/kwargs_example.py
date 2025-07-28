@@ -74,3 +74,16 @@ def apresentarNotas(**kwargs):
 notas = {'joao': 8, 'Carlos': 10, "Jessica": 5}
 
 apresentarNotas(**notas)
+
+#==================================================================
+def apresentarNotas(joao, carlos, jessica):
+    print(f'Joao: {joao}, Carlos{carlos}, Jessica{jessica}')
+
+notas = {'joao': 7, 'carlos': 8, 'jessica': 10}
+
+apresentarNotas(**notas)
+
+#=================================================================
+def certa(nome, *args, cidade="Curitiba", **kwargs):
+    print(f'{nome}\n{args}\n{cidade}\{kwargs}')
+
